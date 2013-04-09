@@ -1,4 +1,4 @@
-<function="octybot" src="octybot2.js"></script>
+<script="octybot" src="octybot2.js"></script>
 
 var version = "Running Octybot = "Running OctyBot Version 1 <br>Type <br>Use '/cmd' to show all commands.";
 
