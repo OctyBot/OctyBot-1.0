@@ -1,3 +1,5 @@
+<function="octybot" src="octybot2.js"></script>
+
 var version = "Running Octybot = "Running OctyBot Version 1 <br>Type <br>Use '/cmd' to show all commands.";
 
 if(localStorage.getItem("bassplug") !== "yes"){
@@ -116,7 +118,7 @@ function displayUI(data) {
                 '<p id="plugbot-btn-userlist" style="color:#3FFF00">Userlist</p>' +
                 '<p id="plugbot-btn-animationoff" style="color:#3FFF00">Animation</p>' +
                 '<p id="plugbot-btn-stream" style="color:#3FFF00">Stream</p>' +
-                '<p id="plugbot-btn-alerts" style="color:#3FFF00">Alerts</p>' +
+                '<p id="plugbot-btn-alerts" style="color:#0000FF">Alerts</p>' +
                 '<p id="plugbot-btn-autorespond" style="color:#ED1C24">Respond</p>' +
                 '</div>'
         );
@@ -1373,3 +1375,5 @@ $('body').append('<div id="plugbot-userlist"></div>');
 populateUserlist();
 displayUI();
 initUIListeners();
+
+// --></script>
