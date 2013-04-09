@@ -721,13 +721,4 @@ c
     initUIListeners();
 }
 
-{
-    /*
-     * Hit the meh button, if automeh is enabled.
-     */
-    if (automeh) 
-  {
-        $('#button-vote-negative').click();
-    }
-
 
